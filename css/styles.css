@@ -1,0 +1,36 @@
+body {background-color: coral;}
+
+h1 {
+    color: black;
+    text-align: center;
+    animation: title 3s;
+}
+
+
+.intro {
+    background-color: white;
+    text-align: center;
+}
+
+
+#adoption {
+    background-color: yellow;
+    
+}
+
+
+@keyframes title {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+ 
